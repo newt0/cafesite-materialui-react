@@ -1,10 +1,15 @@
-import { Button } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import React from "react";
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
+      <Typography variant="h2" color="primary">
+        h2
+      </Typography>
+      <h2>h2</h2>
+
       <Button color="secondary" variant="outlined">
         first button
       </Button>
