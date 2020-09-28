@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Grid } from "@material-ui/core";
-import Header from "./Header";
+import Header from "./Header.js";
 
 function App() {
   return (
