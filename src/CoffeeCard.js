@@ -34,12 +34,12 @@ const useStyles = makeStyles({
 function CoffeeCard(props) {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>●</span>;
-  const { avatarSrc, title, subtitle, description, imageUrl } = props;
+  const { avatarUrl, title, subtitle, description, imageUrl } = props;
   return (
     <div>
       <Card className={classes.root}>
         <CardHeader
-          avatar={<Avatar src={avatarSrc}>R</Avatar>}
+          avatar={<Avatar src={avatarUrl}>R</Avatar>}
           action={
             <IconButton aria-label="settings">
               <ShareIcon />
