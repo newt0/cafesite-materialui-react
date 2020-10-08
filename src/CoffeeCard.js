@@ -9,7 +9,6 @@ import {
   Avatar,
   CardMedia,
 } from "@material-ui/core";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
 import ShareIcon from "@material-ui/icons/Share";
 import { makeStyles } from "@material-ui/core/styles";
 import React from "react";
